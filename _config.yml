@@ -1,0 +1,11 @@
+# Site settings
+title: Map Lamps
+url: http://maplamps.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

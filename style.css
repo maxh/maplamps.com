@@ -1,0 +1,18 @@
+body {
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.logo {
+  font-family: "Sree Krushnadevaraya", serif;
+  font-size: 3em;
+}
