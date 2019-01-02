@@ -1,18 +1,138 @@
 body {
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  text-align: left;
 }
 
-.home {
+.both {
+  display: flex;
+}
+
+.right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  text-align: left;
+  width: 400px;
+  justify-content: space-around;
 }
 
-.logo {
-  font-family: "Sree Krushnadevaraya", serif;
+header {
+  font-family: 'Libre Baskerville', serif;
+}
+
+header .description {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+header .logo {
   font-size: 3em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+}
+
+footer {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 85%;
+  margin-top: 30px;
+}
+
+form label {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+label input {
+  display: flex;
+  direction: column;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-top: 2px;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border-style: none;
+  border-bottom: 1px solid #555;
+  padding: 10px;
+  margin-left: 0;
+  padding-left: 0;
+  color: black;
+  font-size: 1em;
+}
+
+label input::placeholder {
+  font-style: italic;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 10px;
+  background: white;
+  border: 1px solid #555;
+  color: #555;
+  font-size: .85em;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: white;
+  background: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  main header .logo {
+    display: none;
+  }
+  .both {
+    flex-direction: column;
+    margin: 10vw;
+    width: 80vw;
+  }
+  img {
+    width: 100%;
+  }
+  .right {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .top-logo {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 700px) {
+  .both {
+    flex-direction: row;
+    margin: 10vh;
+    height: 80vh;
+  }
+  img {
+    height: 100%;
+    padding-right: 10vh;
+  }
+  body {
+    overflow: hidden;
+  }
+  .top-logo {
+    display: none;
+  }
 }

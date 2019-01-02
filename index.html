@@ -1,13 +1,38 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Sree+Krushnadevaraya" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-  <link rel="stylesheet" type="text/css" href="/style.css">
-  <div class="home">
-    <div class="logo">Map Lamps</div>
-    <div>Coming soon</div>
+  <div class="both">
+    <header>
+      <div class="logo top-logo">Map Lamps</div>
+    </header>
+    <img class="main-image" src="/brick.jpg" />
+    <div class="right">
+      <main>
+        <header>
+          <div class="logo">Map Lamps</div>
+          <div class="description">Light up your place with a map lamp. Available mid-2019. Sign up to receive email updates!</div>
+        </header>
+        <form
+          action="https://formspree.io/xoloojvm"
+          method="POST"
+        >
+          <label>
+            Email
+            <input type="email" placeholder="email@example.com" name="_replyto" required>
+          </label>
+          <label>
+            Preferred location (optional)
+            <input type="text" placeholder="Chicago, IL" name="message"></input>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      </main>
+      <footer>A project by <a href="https://maxheinritz.com">Max Heinritz</a> and <a href="http://hfbusiness.com/Portals/0/SliderCollection/783/HFB_40X40_Slideshow2018_17.jpg">Karl Heinritz</a>.</footer>
+    </div>
   </div>
 </body>
 </html>
