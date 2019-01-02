@@ -25,14 +25,15 @@ header {
 
 header .description {
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 header .logo {
   font-size: 3em;
 }
 
-form {
+.form {
+  height: 300px;
   display: flex;
   flex-direction: column;
   font-size: 1em;
@@ -44,12 +45,25 @@ footer {
   margin-top: 30px;
 }
 
-form label {
+.form .thankyou {
+  font-family: 'Libre Baskerville', serif;
+  display: none;
+}
+
+.form.submitted .thankyou {
+  display: block;
+}
+
+.form.submitted .body {
+  display: none;
+}
+
+.form label {
   margin-bottom: 10px;
   color: #555;
 }
 
-label input {
+.form label input {
   display: flex;
   direction: column;
   -webkit-transition: all 0.30s ease-in-out;
@@ -73,13 +87,13 @@ label input {
   font-size: 1em;
 }
 
-label input::placeholder {
+.form label input::placeholder {
   font-style: italic;
 }
 
 button {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
