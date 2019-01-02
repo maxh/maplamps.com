@@ -85,6 +85,7 @@ footer {
   padding-left: 0;
   color: black;
   font-size: 1em;
+  border-radius: 0px;
 }
 
 .form label input::placeholder {
