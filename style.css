@@ -141,7 +141,7 @@ button:hover {
   }
 }
 
-@media (min-width: 600px) and (max-width: 799px) {
+@media (min-width: 600px) and (max-width: 849px) {
   main header .logo {
     display: none;
   }
@@ -162,7 +162,7 @@ button:hover {
   }
 }
 
-@media (min-width: 800px) and (max-width: 1099px) {
+@media (min-width: 850px) and (max-width: 1099px) {
   .both {
     flex-direction: row;
     margin: 10vh;
