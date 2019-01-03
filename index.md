@@ -18,7 +18,7 @@ layout: base
           Submitted! Stay tuned.
         </div>
         <div class="body">
-          <label>
+          <label class="email-label">
             Email
             <input type="email" placeholder="email@example.com" name="email" required />
           </label>
