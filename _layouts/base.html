@@ -1,0 +1,34 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:url" content="http://maxheinritz.com">
+  <meta property="og:site_name" content="{{ page.title }}">
+  <title>Map Lamps</title>
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="{{ site.desc }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.desc }}">
+  <meta name="description" content="{{ site.desc }}" />
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCMaE2TSE1aXRDkTguqxydZgaAZgHMSCvk",
+      authDomain: "map-lamps-signup.firebaseapp.com",
+      databaseURL: "https://map-lamps-signup.firebaseio.com",
+      projectId: "map-lamps-signup",
+      storageBucket: "map-lamps-signup.appspot.com",
+      messagingSenderId: "130410288210"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="/script.js"></script>
+</head>
+<body>
+  {{ content }}
+</body>
+</html>

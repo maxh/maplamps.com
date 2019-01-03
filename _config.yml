@@ -1,6 +1,7 @@
 # Site settings
 title: Map Lamps
 url: http://maplamps.com
+desc: Light up your place with a map lamp! Available mid-2019.
 
 # Build settings
 markdown: kramdown
