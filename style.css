@@ -87,6 +87,14 @@ footer {
   -webkit-appearance: none;
 }
 
+.form label.error input {
+  border-bottom: 1px solid #b20000;
+}
+
+.form label.error {
+  color: #b20000;
+}
+
 .form label input::placeholder {
   font-style: italic;
 }
