@@ -120,7 +120,7 @@ button:hover {
   cursor: pointer;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   main header .logo {
     display: none;
   }
@@ -141,7 +141,50 @@ button:hover {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) and (max-width: 799px) {
+  main header .logo {
+    display: none;
+  }
+  .both {
+    flex-direction: column;
+    margin: 10vw;
+    width: 80vw;
+  }
+  img {
+    width: 50%;
+  }
+  .right {
+    margin-top: 10px;
+    width: 70%;
+  }
+  .top-logo {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1099px) {
+  .both {
+    flex-direction: row;
+    margin: 10vh;
+    height: 80vh;
+  }
+  img {
+    height: 500px;
+    padding-right: 10vh;
+  }
+  body {
+    overflow: hidden;
+  }
+  .top-logo {
+    display: none;
+  }
+  .right {
+    width: 300px;
+    height: 600px;
+  }
+}
+
+@media (min-width: 1100px) {
   .both {
     flex-direction: row;
     margin: 10vh;
