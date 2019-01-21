@@ -11,7 +11,10 @@ layout: base
     <main>
       <header>
         <div class="logo">Map Lamps</div>
-        <div class="description">Light up your place with a map lamp. Available mid-2019. Register below to receive email updates!</div>
+        <div class="description">
+          Light up your place with a map lamp. Available mid-2019.
+          Follow us on <a href="https://www.instagram.com/maplamps/">Instagram</a> or register below to receive email updates!
+        </div>
       </header>
       <div class="form">
         <div class="thankyou">
