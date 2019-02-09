@@ -5,6 +5,7 @@ layout: base
 <div class="both">
   <header>
     <div class="logo top-logo">Map Lamps</div>
+    <meta name="google-site-verification" content="zfXSxz_55F61Mv2x7mpmQWu3mKBy4v7YfcqpbvVUTuc" />
   </header>
   <img class="main-image" src="/brick.jpg" />
   <div class="right">
