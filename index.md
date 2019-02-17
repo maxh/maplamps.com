@@ -35,10 +35,10 @@ layout: base
     </main>
     <footer>
       <div>
-        By <a href="https://maxheinritz.com">Max</a> and <a href="http://hfbusiness.com/Portals/0/SliderCollection/783/HFB_40X40_Slideshow2018_17.jpg">Karl</a> Heinritz. Say hi@maplamps.com.
+        By <a href="https://maxheinritz.com">Max Heinritz</a> and <a href="http://hfbusiness.com/Portals/0/SliderCollection/783/HFB_40X40_Slideshow2018_17.jpg">Karl Heinritz</a>.
       </div>
       <div>
-
+        Say hi@maplamps.com.
       </div>
     </footer>
   </div>
