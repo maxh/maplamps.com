@@ -191,6 +191,7 @@ button:hover {
     flex-direction: row;
     margin: 10vh;
     height: 80vh;
+    max-height: 550px;
   }
   img {
     height: 100%;
